@@ -1,6 +1,24 @@
----
-owner-repo: koraa/huniq
-desc:   Filter out duplicates on the command line. Replacement for `sort | uniq` optimized for speed (10x faster) when sorting is not needed. 
----
-
 # huniq
+
+Filter out duplicates on the command line. Replacement for `sort | uniq` optimized for speed (10x faster) when sorting is not needed.
+
+- **Upstream**: <https://github.com/koraa/huniq>
+- **Homepage**: <>
+- **Latest release**: `latest` (n/a)
+- **Last commit**: 2024-01-26
+- **License**: NOASSERTION
+- **Stars**: 265 · **Forks**: 12 · **Open issues**: 20 · **Contributors**: 9
+
+## Installation
+
+```sh
+x install huniq
+```
+
+See <https://x-cmd.com/install/huniq> for details.
+
+## Data
+
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+
+_Last regenerated: 2026-09-08T10:50:30Z._
