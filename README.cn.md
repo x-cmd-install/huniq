@@ -12,6 +12,28 @@ Filter out duplicates on the command line. Replacement for `sort | uniq` optimiz
 x install huniq
 ```
 
+## 代码规模
+
+合计: **350** 行代码（覆盖前 5 种语言、共 **10** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 209 | 2 | 32 | 2 |
+| Sh | 121 | 2 | 22 | 2 |
+| Toml | 20 | 0 | 3 | 1 |
+| Markdown | 0 | 144 | 36 | 1 |
+| Text | 0 | 101 | 17 | 4 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **2.4 / 10**
+
+评分最低的几项:
+
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (2/10) — Found 6/21 approved changesets -- score normalized to 2
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/koraa/huniq>
@@ -35,30 +57,19 @@ x install huniq
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 1 | 0 |
 
-## 代码规模
+## 发行版状态
 
-合计: **350** 行代码（覆盖前 5 种语言、共 **10** 个文件）。
+在 [repology.org](https://repology.org/project/huniq) 上共有 **8** 个发行版报告此项目。**7** 个 ✅ 已是最新上游版本，**0** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 209 | 2 | 32 | 2 |
-| Sh | 121 | 2 | 22 | 2 |
-| Toml | 20 | 0 | 3 | 1 |
-| Markdown | 0 | 144 | 36 | 1 |
-| Text | 0 | 101 | 17 | 4 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **2.4 / 10**
-
-评分最低的几项:
-
-- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
-- **Code-Review** (2/10) — Found 6/21 approved changesets -- score normalized to 2
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Nix unstable | `2.7.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -69,4 +80,4 @@ huniq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:35:13Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:03:44Z._
