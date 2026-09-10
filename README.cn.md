@@ -1,0 +1,72 @@
+# huniq
+
+[English version](./README.md)
+
+Filter out duplicates on the command line. Replacement for `sort | uniq` optimized for speed (10x faster) when sorting is not needed.
+
+![huniq](https://repo.x-cmd.io/huniq.svg)
+
+## 安装
+
+```sh
+x install huniq
+```
+
+## 源代码
+
+- **上游仓库**: <https://github.com/koraa/huniq>
+- **许可证**: NOASSERTION
+
+## 发布
+
+- **最新版本**: `latest`
+- **最近提交**: 2024-01-26
+
+## 流行度
+
+- **Star**: 265 · **Fork**: 12 · **开放 issue**: 20 · **贡献者**: 9
+
+## 累计统计
+
+- **发布数**: 1 · **已合并 PR**: 10 · **开放 PR**: 0 · **已关闭 issue**: 10 · **开放 issue**: 10 · **提交数**: 63
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 1 | 0 |
+
+## 代码规模
+
+合计: **350** 行代码（覆盖前 5 种语言、共 **10** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 209 | 2 | 32 | 2 |
+| Sh | 121 | 2 | 22 | 2 |
+| Toml | 20 | 0 | 3 | 1 |
+| Markdown | 0 | 144 | 36 | 1 |
+| Text | 0 | 101 | 17 | 4 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **2.4 / 10**
+
+评分最低的几项:
+
+- **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+- **Code-Review** (2/10) — Found 6/21 approved changesets -- score normalized to 2
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
+## 改进这些数据
+
+huniq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `huniq` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
+
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/huniq.yml>（或索引实际使用的路径）
+
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
+
+_数据快照: `data/card/260910.yml` · 2026-09-10T04:36:21Z._
